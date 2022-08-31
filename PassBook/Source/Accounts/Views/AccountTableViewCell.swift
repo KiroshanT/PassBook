@@ -154,15 +154,3 @@ class AccountTableViewCell: UITableViewCell {
         return button
     }()
 }
-
-extension String {
-    func toCurrencyFormat() -> String {
-        if let intValue = Int(self){
-            let numberFormatter = NumberFormatter()
-            numberFormatter.locale = Locale.current
-            numberFormatter.numberStyle = NumberFormatter.Style.currency
-            return numberFormatter.string(from: NSNumber(value: intValue)) ?? ""
-        }
-        return ""
-    }
-}

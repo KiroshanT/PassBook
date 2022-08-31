@@ -78,24 +78,3 @@ class TransactionsTableViewCell: UITableViewCell {
         return label
     }()
 }
-
-extension String {
-    var isInt: Bool {
-        return Int(self) != nil
-    }
-    
-    func getFormattedDate() -> String {
-        let inputFormatter = DateFormatter()
-        inputFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-        
-        let showDate = inputFormatter.date(from: String(self.dropLast(6)))
-        inputFormatter.dateFormat = "dd MMMM yyyy"
-        var resultString = ""
-        if showDate != nil {
-            resultString = inputFormatter.string(from: showDate!)
-        }
-        print("dateAndTime ", resultString)
-        
-        return resultString
-    }
-}
