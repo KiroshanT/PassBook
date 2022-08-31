@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C370858528BE1C2500E601AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370858428BE1C2500E601AC /* AppDelegate.swift */; };
+		C370858728BE1C2500E601AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370858628BE1C2500E601AC /* SceneDelegate.swift */; };
+		C370858928BE1C2500E601AC /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370858828BE1C2500E601AC /* AccountViewController.swift */; };
+		C370858C28BE1C2500E601AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C370858A28BE1C2500E601AC /* Main.storyboard */; };
+		C370858E28BE1C2600E601AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C370858D28BE1C2600E601AC /* Assets.xcassets */; };
+		C370859128BE1C2600E601AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C370858F28BE1C2600E601AC /* LaunchScreen.storyboard */; };
+		C37085A128BE1E4200E601AC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37085A028BE1E4200E601AC /* BaseViewController.swift */; };
+		C37085A328BE1F4C00E601AC /* TopNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37085A228BE1F4C00E601AC /* TopNavigationBarView.swift */; };
+		C37085A528BE221000E601AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37085A428BE221000E601AC /* Constants.swift */; };
+		C38C3B6E28BE7C8A00E7FA3B /* BottomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B6D28BE7C8A00E7FA3B /* BottomNavigationBarView.swift */; };
+		C38C3B7328BE847700E7FA3B /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B7228BE847700E7FA3B /* AccountTableViewCell.swift */; };
+		C38C3B7628BE98E600E7FA3B /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B7528BE98E600E7FA3B /* TransactionViewController.swift */; };
+		C38C3B7928BEA03F00E7FA3B /* TransactionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B7828BEA03F00E7FA3B /* TransactionHeaderView.swift */; };
+		C38C3B7B28BEACFE00E7FA3B /* TransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B7A28BEACFE00E7FA3B /* TransactionsTableViewCell.swift */; };
+		C38C3B7F28BEB64500E7FA3B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B7E28BEB64500E7FA3B /* Transaction.swift */; };
+		C38C3B8128BEB7D300E7FA3B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B8028BEB7D300E7FA3B /* Account.swift */; };
+		C38C3B8528BEBF2900E7FA3B /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B8428BEBF2900E7FA3B /* TransactionViewModel.swift */; };
+		C38C3B8728BEBF3700E7FA3B /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38C3B8628BEBF3700E7FA3B /* AccountViewModel.swift */; };
+		CE91EB22E3397B1B7727BC3E /* Pods_PassBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A86116FF0956E93E6E8740 /* Pods_PassBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09C6F25B47A0C2A815555ED9 /* Pods-PassBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassBook.debug.xcconfig"; path = "Target Support Files/Pods-PassBook/Pods-PassBook.debug.xcconfig"; sourceTree = "<group>"; };
+		7F76111A109A81A2CA5573A3 /* Pods-PassBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassBook.release.xcconfig"; path = "Target Support Files/Pods-PassBook/Pods-PassBook.release.xcconfig"; sourceTree = "<group>"; };
+		C370858128BE1C2500E601AC /* PassBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C370858428BE1C2500E601AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C370858628BE1C2500E601AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C370858828BE1C2500E601AC /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C370858B28BE1C2500E601AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C370858D28BE1C2600E601AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C370859028BE1C2600E601AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C370859228BE1C2600E601AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37085A028BE1E4200E601AC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C37085A228BE1F4C00E601AC /* TopNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBarView.swift; sourceTree = "<group>"; };
+		C37085A428BE221000E601AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C38C3B6D28BE7C8A00E7FA3B /* BottomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationBarView.swift; sourceTree = "<group>"; };
+		C38C3B7228BE847700E7FA3B /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		C38C3B7528BE98E600E7FA3B /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		C38C3B7828BEA03F00E7FA3B /* TransactionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeaderView.swift; sourceTree = "<group>"; };
+		C38C3B7A28BEACFE00E7FA3B /* TransactionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		C38C3B7E28BEB64500E7FA3B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		C38C3B8028BEB7D300E7FA3B /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		C38C3B8428BEBF2900E7FA3B /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		C38C3B8628BEBF3700E7FA3B /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		F1A86116FF0956E93E6E8740 /* Pods_PassBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C370857E28BE1C2500E601AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91EB22E3397B1B7727BC3E /* Pods_PassBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6B34EBA53FB2E4E683AC6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1A86116FF0956E93E6E8740 /* Pods_PassBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D238FC4B73E232578EA316A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C6F25B47A0C2A815555ED9 /* Pods-PassBook.debug.xcconfig */,
+				7F76111A109A81A2CA5573A3 /* Pods-PassBook.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C370857828BE1C2500E601AC = {
+			isa = PBXGroup;
+			children = (
+				C370858328BE1C2500E601AC /* PassBook */,
+				C370858228BE1C2500E601AC /* Products */,
+				2D238FC4B73E232578EA316A /* Pods */,
+				1C6B34EBA53FB2E4E683AC6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C370858228BE1C2500E601AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C370858128BE1C2500E601AC /* PassBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C370858328BE1C2500E601AC /* PassBook */ = {
+			isa = PBXGroup;
+			children = (
+				C370859828BE1C7200E601AC /* Source */,
+				C370858428BE1C2500E601AC /* AppDelegate.swift */,
+				C370858628BE1C2500E601AC /* SceneDelegate.swift */,
+				C370858A28BE1C2500E601AC /* Main.storyboard */,
+				C370858D28BE1C2600E601AC /* Assets.xcassets */,
+				C370858F28BE1C2600E601AC /* LaunchScreen.storyboard */,
+				C370859228BE1C2600E601AC /* Info.plist */,
+			);
+			path = PassBook;
+			sourceTree = "<group>";
+		};
+		C370859828BE1C7200E601AC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C370859C28BE1CCF00E601AC /* Dashboard */,
+				C370859B28BE1CBE00E601AC /* Helpers */,
+				C370859A28BE1CAD00E601AC /* Transactions */,
+				C370859928BE1CA400E601AC /* Accounts */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C370859928BE1CA400E601AC /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B8228BEBECA00E7FA3B /* ViewModels */,
+				C38C3B7C28BEB5E200E7FA3B /* Models */,
+				C38C3B7128BE843B00E7FA3B /* Views */,
+				C370859D28BE1D6800E601AC /* Controllers */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		C370859A28BE1CAD00E601AC /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B8328BEBED600E7FA3B /* ViewModels */,
+				C38C3B7D28BEB5EC00E7FA3B /* Models */,
+				C38C3B7728BEA00700E7FA3B /* Views */,
+				C38C3B7428BE98CC00E7FA3B /* Controllers */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		C370859B28BE1CBE00E601AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C37085A428BE221000E601AC /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C370859C28BE1CCF00E601AC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C370859F28BE1E0200E601AC /* Views */,
+				C370859E28BE1DFB00E601AC /* Controllers */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C370859D28BE1D6800E601AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C370858828BE1C2500E601AC /* AccountViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C370859E28BE1DFB00E601AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C37085A028BE1E4200E601AC /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C370859F28BE1E0200E601AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C37085A228BE1F4C00E601AC /* TopNavigationBarView.swift */,
+				C38C3B6D28BE7C8A00E7FA3B /* BottomNavigationBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C38C3B7128BE843B00E7FA3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B7228BE847700E7FA3B /* AccountTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C38C3B7428BE98CC00E7FA3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B7528BE98E600E7FA3B /* TransactionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C38C3B7728BEA00700E7FA3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B7828BEA03F00E7FA3B /* TransactionHeaderView.swift */,
+				C38C3B7A28BEACFE00E7FA3B /* TransactionsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C38C3B7C28BEB5E200E7FA3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B8028BEB7D300E7FA3B /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C38C3B7D28BEB5EC00E7FA3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B7E28BEB64500E7FA3B /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C38C3B8228BEBECA00E7FA3B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B8628BEBF3700E7FA3B /* AccountViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C38C3B8328BEBED600E7FA3B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C38C3B8428BEBF2900E7FA3B /* TransactionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C370858028BE1C2500E601AC /* PassBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C370859528BE1C2600E601AC /* Build configuration list for PBXNativeTarget "PassBook" */;
+			buildPhases = (
+				50A0A6C27418A91FB734653E /* [CP] Check Pods Manifest.lock */,
+				C370857D28BE1C2500E601AC /* Sources */,
+				C370857E28BE1C2500E601AC /* Frameworks */,
+				C370857F28BE1C2500E601AC /* Resources */,
+				6C22C61E8F6903058A7B4ACA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassBook;
+			productName = PassBook;
+			productReference = C370858128BE1C2500E601AC /* PassBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C370857928BE1C2500E601AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C370858028BE1C2500E601AC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C370857C28BE1C2500E601AC /* Build configuration list for PBXProject "PassBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C370857828BE1C2500E601AC;
+			productRefGroup = C370858228BE1C2500E601AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C370858028BE1C2500E601AC /* PassBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C370857F28BE1C2500E601AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C370859128BE1C2600E601AC /* LaunchScreen.storyboard in Resources */,
+				C370858E28BE1C2600E601AC /* Assets.xcassets in Resources */,
+				C370858C28BE1C2500E601AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50A0A6C27418A91FB734653E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C22C61E8F6903058A7B4ACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassBook/Pods-PassBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassBook/Pods-PassBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassBook/Pods-PassBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C370857D28BE1C2500E601AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38C3B6E28BE7C8A00E7FA3B /* BottomNavigationBarView.swift in Sources */,
+				C38C3B8728BEBF3700E7FA3B /* AccountViewModel.swift in Sources */,
+				C38C3B8128BEB7D300E7FA3B /* Account.swift in Sources */,
+				C370858928BE1C2500E601AC /* AccountViewController.swift in Sources */,
+				C38C3B7F28BEB64500E7FA3B /* Transaction.swift in Sources */,
+				C37085A328BE1F4C00E601AC /* TopNavigationBarView.swift in Sources */,
+				C38C3B7628BE98E600E7FA3B /* TransactionViewController.swift in Sources */,
+				C38C3B7928BEA03F00E7FA3B /* TransactionHeaderView.swift in Sources */,
+				C37085A128BE1E4200E601AC /* BaseViewController.swift in Sources */,
+				C370858528BE1C2500E601AC /* AppDelegate.swift in Sources */,
+				C370858728BE1C2500E601AC /* SceneDelegate.swift in Sources */,
+				C38C3B7B28BEACFE00E7FA3B /* TransactionsTableViewCell.swift in Sources */,
+				C38C3B7328BE847700E7FA3B /* AccountTableViewCell.swift in Sources */,
+				C37085A528BE221000E601AC /* Constants.swift in Sources */,
+				C38C3B8528BEBF2900E7FA3B /* TransactionViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C370858A28BE1C2500E601AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C370858B28BE1C2500E601AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C370858F28BE1C2600E601AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C370859028BE1C2600E601AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C370859328BE1C2600E601AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C370859428BE1C2600E601AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C370859628BE1C2600E601AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C6F25B47A0C2A815555ED9 /* Pods-PassBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.PassBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C370859728BE1C2600E601AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F76111A109A81A2CA5573A3 /* Pods-PassBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.PassBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C370857C28BE1C2500E601AC /* Build configuration list for PBXProject "PassBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C370859328BE1C2600E601AC /* Debug */,
+				C370859428BE1C2600E601AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C370859528BE1C2600E601AC /* Build configuration list for PBXNativeTarget "PassBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C370859628BE1C2600E601AC /* Debug */,
+				C370859728BE1C2600E601AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C370857928BE1C2500E601AC /* Project object */;
+}

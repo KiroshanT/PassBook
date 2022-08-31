@@ -1,0 +1,6 @@
+framework module Pods_PassBook {
+  umbrella header "Pods-PassBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
